@@ -43,6 +43,7 @@ GET: http://localhost:7000/storee/api/v1/products
 - Create a product
 
 POST: http://localhost:7000/storee/api/v1/products
+
 Body:
 
 ```json
@@ -61,6 +62,7 @@ GET: http://localhost:7000/storee/api/v1/products/1
 - Update a product by ID, e.g. 1
 
 PUT: http://localhost:7000/storee/api/v1/products/1
+
 Body:
 
 ```json
