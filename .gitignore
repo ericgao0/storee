@@ -1,0 +1,33 @@
+storee-product-service/HELP.md
+storee-product-service/target/
+!storee-product-service/.mvn/wrapper/maven-wrapper.jar
+!storee-product-service/**/src/main/**/target/
+!storee-product-service/**/src/test/**/target/
+
+### STS ###
+storee-product-service/.apt_generated
+storee-product-service/.classpath
+storee-product-service/.factorypath
+storee-product-service/.project
+storee-product-service/.settings
+storee-product-service/.springBeans
+storee-product-service/.sts4-cache
+
+### IntelliJ IDEA ###
+storee-product-service/.idea
+storee-product-service/*.iws
+storee-product-service/*.iml
+storee-product-service/*.ipr
+
+### NetBeans ###
+/storee-product-service/nbproject/private/
+/storee-product-service/nbbuild/
+/storee-product-service/dist/
+/storee-product-service/nbdist/
+/storee-product-service/.nb-gradle/
+storee-product-service/build/
+!storee-product-service/**/src/main/**/build/
+!storee-product-service/**/src/test/**/build/
+
+### VS Code ###
+storee-product-service/.vscode/
