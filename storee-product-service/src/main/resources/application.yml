@@ -1,4 +1,18 @@
+# server
+server:
+  port: 7000
+  servlet:
+    context-path: /storee/api/v1
 # spring
 spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/storee?useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+    username: root
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
   messages:
     basename: i18n/messages
